@@ -28,6 +28,11 @@ a {
   color: rgb(98, 0, 255);
 }
 
+a:hover {
+  text-decoration: none;
+  color: rgb(66, 0, 172);
+}
+
 .jumbotron {
   margin: 2rem 0 0rem 0;
 }
@@ -97,13 +102,11 @@ input {
 }
 
 .navbar {
-  padding: 0 1rem 0 1rem;
+  padding: 1rem 1rem 0 1rem;
 }
 
 .navbar__brand {
   display: inline-block;
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
   margin-right: 1rem;
   font-size: 1.5rem;
   line-height: inherit;
@@ -112,8 +115,6 @@ input {
 
 .navbar__contact {
   display: inline-block;
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
   margin-right: 1rem;
   font-size: 1.25rem;
   line-height: inherit;
@@ -130,6 +131,7 @@ input {
   font-size: 1.25rem;
   margin-top: 1rem;
 }
+
 .showcase__description {
   font-size: 0.75rem;
   font-weight: 400;
@@ -168,7 +170,6 @@ input {
 
 .hero__lead {
   margin: 1rem 0 1rem 0;
-  color: #6c757d;
 }
 
 .hero__currents {
@@ -220,9 +221,8 @@ input {
   text-align: left;
 }
 
-.contact__greeting .title {
-}
+.contact__title {}
 
-.contact__greeting .email {
+.contact__email {
   color: rgb(98, 0, 255) !important;
 }

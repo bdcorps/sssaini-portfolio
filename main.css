@@ -1,0 +1,228 @@
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  background-color: #e9ecef;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 0;
+}
+
+a {
+  color: rgb(98, 0, 255);
+}
+
+.jumbotron {
+  margin: 2rem 0 0rem 0;
+}
+
+.jumbotron--large {
+  margin: 6rem 0 0rem 0;
+}
+
+.underline {
+  text-decoration-style: dashed;
+  text-decoration-line: underline;
+  color: #000000;
+}
+
+.primary-btn {
+  width: auto;
+  border: none;
+  height: 3rem;
+  border-radius: 0.25rem;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  transition: all 0.1s ease-in-out;
+  margin-top: 2rem;
+  white-space: nowrap;
+  text-decoration: none;
+  text-align: left;
+  display: inline-flex;
+  align-items: center;
+  background-color: rgb(98, 0, 255);
+  padding: 0.75rem 2rem;
+}
+
+.secondary-btn {
+  border: 0;
+  color: rgb(98, 0, 255);
+  border-radius: 0;
+  background-color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  padding: 10px 20px;
+  height: auto;
+  text-decoration: none !important;
+  text-shadow: none;
+  width: 220px;
+  height: 51px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.18);
+}
+
+input {
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 16px 18px;
+  background-position: 98% 50%;
+  cursor: auto;
+  border-radius: 0.25rem;
+  margin-right: 0;
+  line-height: normal;
+  padding: 0.35em 1em 0.35rem;
+  border: none;
+  border: 1px solid #dddfe5;
+  border-radius: 0.3rem;
+  transition: all 0.1s ease-in-out;
+  -webkit-appearance: none;
+  overflow: visible;
+  height: 3rem;
+}
+
+.navbar {
+  padding: 0 1rem 0 1rem;
+}
+
+.navbar__brand {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.5rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+.navbar__contact {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+.link--muted {
+  text-decoration: underline;
+  color: #6c757d;
+  text-underline-position: under;
+}
+
+.showcase__title {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+}
+.showcase__description {
+  font-size: 0.75rem;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
+.product__card {
+  width: 100%;
+  background-color: rgb(98, 0, 255);
+}
+
+.product__title {
+  font-weight: 500;
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.product__description {
+  font-weight: 300;
+  font-size: 0.75rem;
+}
+
+.social__link {
+  font-size: 1.5rem;
+  margin: 0.5rem;
+  color: #000000;
+}
+
+.social__link a {
+  color: #000;
+}
+
+.text-muted {
+  margin-left: 0rem;
+}
+
+.hero__lead {
+  margin: 1rem 0 1rem 0;
+  color: #6c757d;
+}
+
+.hero__currents {
+  font-weight: 300;
+}
+
+.link-muted {
+  color: #6c757d;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+.mt-4 {
+  margin-top: 2rem !important;
+}
+
+.showcase__title {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+}
+
+.showcase__description {
+  font-size: 0.75rem;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
+.product__card .title {
+  font-weight: 500;
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.product__card .desciption {
+  font-weight: 300;
+  font-size: 0.75rem;
+}
+
+.product__card .image {
+  width: 100%;
+  background-color: rgb(98, 0, 255);
+}
+
+.contact__social {
+  text-align: right;
+}
+
+.contact__email {
+  text-align: left;
+}
+
+.contact__greeting .title {
+}
+
+.contact__greeting .email {
+  color: rgb(98, 0, 255) !important;
+}

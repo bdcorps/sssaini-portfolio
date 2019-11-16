@@ -1,13 +1,14 @@
 {
-  "name": "serve-static-website-nodejs",
+  "name": "sssaini-portfolio",
   "version": "1.0.0",
-  "description": "Serve static website using Node.js and Express web server",
+  "description": "sssaini-portfolio",
   "scripts": {
     "start": "node app.js"
   },
   "author": "bdcorps",
   "license": "MIT",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "express": "4.13.3"
   }
 }

@@ -128,12 +128,12 @@ input {
 }
 
 .showcase__title {
-  font-size: 1.25rem;
+  font-size: 1rem;
   margin-top: 1rem;
 }
 
 .showcase__description {
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   font-weight: 400;
   margin-top: 1rem;
 }
@@ -141,6 +141,32 @@ input {
 .product__card {
   width: 100%;
   background-color: rgb(98, 0, 255);
+}
+
+.product__image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.product__image--newseon {
+  background-image: url("https://placehold.co/400x400/6200FF/white?text=Ne");
+}
+
+.product__image--medchain {
+  background-image: url("https://placehold.co/400x400/6200FF/white?text=Me");
+}
+
+.product__image--mischief {
+  background-image: url("https://placehold.co/400x400/6200FF/white?text=Mi");
+}
+
+.product__image--kulertown {
+  background-image: url("https://placehold.co/400x400/6200FF/white?text=Ku");
+}
+
+.product__image--fileexpress {
+  background-image: url("https://placehold.co/400x400/6200FF/white?text=Fe");
 }
 
 .product__title {
@@ -189,28 +215,6 @@ input {
 .showcase__title {
   font-size: 1.25rem;
   margin-top: 1rem;
-}
-
-.showcase__description {
-  font-size: 0.75rem;
-  font-weight: 400;
-  margin-top: 1rem;
-}
-
-.product__card .title {
-  font-weight: 500;
-  margin-top: 1rem;
-  font-size: 1rem;
-}
-
-.product__card .desciption {
-  font-weight: 300;
-  font-size: 0.75rem;
-}
-
-.product__card .image {
-  width: 100%;
-  background-color: rgb(98, 0, 255);
 }
 
 .contact__social {

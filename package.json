@@ -1,0 +1,13 @@
+{
+  "name": "serve-static-website-nodejs",
+  "version": "1.0.0",
+  "description": "Serve static website using Node.js and Express web server",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "bdcorps",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.13.3"
+  }
+}

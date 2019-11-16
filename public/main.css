@@ -1,6 +1,7 @@
 body {
   font-family: "Noto Sans JP", sans-serif;
   background-color: #e9ecef;
+
 }
 
 h1 {
@@ -109,7 +110,6 @@ input {
   display: inline-block;
   margin-right: 1rem;
   font-size: 1.5rem;
-  line-height: inherit;
   white-space: nowrap;
 }
 
@@ -117,7 +117,6 @@ input {
   display: inline-block;
   margin-right: 1rem;
   font-size: 1.25rem;
-  line-height: inherit;
   white-space: nowrap;
 }
 
@@ -212,6 +211,10 @@ input {
   margin-top: 2rem !important;
 }
 
+.showcase__product {
+  margin: 0rem;
+}
+
 .showcase__title {
   font-size: 1.25rem;
   margin-top: 1rem;
@@ -229,4 +232,49 @@ input {
 
 .contact__email {
   color: rgb(98, 0, 255) !important;
+}
+
+@media all and (max-width: 1199px) {}
+
+@media all and (max-width: 991px) {}
+
+@media all and (max-width: 768px) {
+
+  p,
+  ul {
+    font-size: 1.25rem;
+  }
+
+  .showcase__title {
+    font-size: 2rem;
+  }
+
+  .showcase__description {
+    font-size: 1.25rem;
+  }
+
+  .showcase__product {
+    margin: 3rem;
+  }
+
+  .product__title {
+    font-size: 1.5rem;
+  }
+
+  .product__description {
+    font-size: 1.5rem;
+  }
+
+  .contact__social {
+    text-align: left;
+    margin: 0.5rem 0 0.5rem 0;
+  }
+
+  .contact__greeting {
+    margin: 0.5rem 0 0.5rem 0;
+  }
+
+  .social__link {
+    font-size: 2rem;
+  }
 }

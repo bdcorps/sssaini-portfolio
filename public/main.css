@@ -189,8 +189,9 @@ input {
   color: #000;
 }
 
-.text-muted {
+.text--muted {
   margin-left: 0rem;
+  color: #6c757d;
 }
 
 .hero__lead {

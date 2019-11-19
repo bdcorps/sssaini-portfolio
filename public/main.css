@@ -1,9 +1,14 @@
 body {
   font-family: "Noto Sans JP", sans-serif;
   background-color: #e9ecef;
-
 }
-
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 1.3;
+}
 h1 {
   font-size: 2rem;
   font-weight: 500;
@@ -149,23 +154,23 @@ input {
 }
 
 .product__image--newseon {
-  background-image: url("https://placehold.co/400x400/6200FF/white?text=Ne");
+  background-image: url("https://placehold.co/400x400/white/212529?text=Ne");
 }
 
 .product__image--medchain {
-  background-image: url("https://placehold.co/400x400/6200FF/white?text=Me");
+  background-image: url("https://placehold.co/400x400/white/212529?text=Me");
 }
 
 .product__image--mischief {
-  background-image: url("https://placehold.co/400x400/6200FF/white?text=Mi");
+  background-image: url("https://placehold.co/400x400/white/212529?text=Mi");
 }
 
 .product__image--kulertown {
-  background-image: url("https://placehold.co/400x400/6200FF/white?text=Ku");
+  background-image: url("https://placehold.co/400x400/white/212529?text=Ku");
 }
 
 .product__image--fileexpress {
-  background-image: url("https://placehold.co/400x400/6200FF/white?text=Fe");
+  background-image: url("https://placehold.co/400x400/white/212529?text=Fe");
 }
 
 .product__title {
@@ -229,18 +234,20 @@ input {
   text-align: left;
 }
 
-.contact__title {}
+.contact__title {
+}
 
 .contact__email {
   color: rgb(98, 0, 255) !important;
 }
 
-@media all and (max-width: 1199px) {}
+@media all and (max-width: 1199px) {
+}
 
-@media all and (max-width: 991px) {}
+@media all and (max-width: 991px) {
+}
 
 @media all and (max-width: 768px) {
-
   p,
   ul {
     font-size: 1.25rem;

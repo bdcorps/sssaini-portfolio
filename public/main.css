@@ -156,23 +156,28 @@ input {
 }
 
 .product__image--newseon {
-  background-image: url("https://placehold.co/400x400/white/212529?text=Ne");
+  /* background-image: url("https://placehold.co/400x400/white/212529?text=Ne"); */
+  background-image: url("newseon.gif");
 }
 
 .product__image--medchain {
-  background-image: url("https://placehold.co/400x400/white/212529?text=Me");
+  /* background-image: url("https://placehold.co/400x400/white/212529?text=Me"); */
+  background-image: url("medchain.gif");
 }
 
 .product__image--mischief {
-  background-image: url("https://placehold.co/400x400/white/212529?text=Mi");
+  /* background-image: url("https://placehold.co/400x400/white/212529?text=Mi"); */
+  background-image: url("mischief-managed.gif");
 }
 
 .product__image--kulertown {
-  background-image: url("https://placehold.co/400x400/white/212529?text=Ku");
+  /* background-image: url("https://placehold.co/400x400/white/212529?text=Ku"); */
+  background-image: url("kulertown.gif");
 }
 
 .product__image--fileexpress {
-  background-image: url("https://placehold.co/400x400/white/212529?text=Fe");
+  /* background-image: url("https://placehold.co/400x400/white/212529?text=Fe"); */
+  background-image: url("file-express.gif");
 }
 
 .product__title {

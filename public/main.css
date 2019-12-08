@@ -237,6 +237,7 @@ input {
 
 .contact__email {
   text-align: left;
+  line-height: 160%;
 }
 
 .contact__title {}

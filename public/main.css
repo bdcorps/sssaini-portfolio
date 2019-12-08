@@ -153,6 +153,13 @@ input {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.product__image:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
 }
 
 .product__image--newseon {
@@ -294,4 +301,10 @@ input {
   .social__link {
     font-size: 2rem;
   }
+
+  .product__image {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+  }
+
 }

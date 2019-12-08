@@ -248,7 +248,6 @@ input {
 }
 
 .contact__email {
-  text-align: left;
   line-height: 160%;
 }
 
@@ -267,6 +266,7 @@ input {
   p,
   ul {
     font-size: 1.25rem;
+    line-height: 160%;
   }
 
   .showcase__title {
@@ -289,8 +289,13 @@ input {
     font-size: 1.5rem;
   }
 
+  .contact__title {
+    text-align: center;
+    margin: 0.5rem 0 0.5rem 0;
+  }
+
   .contact__social {
-    text-align: left;
+    text-align: center;
     margin: 0.5rem 0 0.5rem 0;
   }
 
@@ -305,6 +310,10 @@ input {
   .product__image {
     -webkit-filter: grayscale(0%);
     filter: grayscale(0%);
+  }
+
+  .footer__copyright {
+    text-align: center;
   }
 
 }

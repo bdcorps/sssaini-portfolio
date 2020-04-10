@@ -3,7 +3,8 @@ var express = require("express"),
   app = express(),
   bodyParser = require("body-parser");
 
-var port = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3000;
+const HOST = "0.0.0.0";
 
 app.use(
   bodyParser.urlencoded({
@@ -18,6 +19,6 @@ app.get("/", function(req, res) {
   res.sendFile(path.join(__dirname, "public", "index.html"));
 });
 
-var server = app.listen(port, function() {
-  console.log("The server is running on http://localhost:" + port);
+var server = app.listen(PORT, HOST, function() {
+  console.log("The server is running on http://localhost:" + PORT);
 });

@@ -212,6 +212,16 @@ input {
   background-image: url("pawpatrol.png");
 }
 
+.product__image--investingfordevs {
+  /* background-image: url("https://placehold.co/400x400/white/212529?text=Fe"); */
+  background-image: url("investingfordevs.png");
+}
+
+.product__image--saasbase {
+  /* background-image: url("https://placehold.co/400x400/white/212529?text=Fe"); */
+  background-image: url("saasbase.png");
+}
+
 .product__title {
   font-weight: 500;
   margin-top: 1rem;

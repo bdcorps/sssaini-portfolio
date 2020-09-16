@@ -187,6 +187,31 @@ input {
   background-image: url("file-express.gif");
 }
 
+.product__image--csgames {
+  /* background-image: url("https://placehold.co/400x400/white/212529?text=Fe"); */
+  background-image: url("csgames.png");
+}
+
+.product__image--eriego {
+  /* background-image: url("https://placehold.co/400x400/white/212529?text=Fe"); */
+  background-image: url("eriego.png");
+}
+
+.product__image--ibmyork {
+  /* background-image: url("https://placehold.co/400x400/white/212529?text=Fe"); */
+  background-image: url("ibmyork.png");
+}
+
+.product__image--kalusto {
+  /* background-image: url("https://placehold.co/400x400/white/212529?text=Fe"); */
+  background-image: url("kalusto.png");
+}
+
+.product__image--pawpatrol {
+  /* background-image: url("https://placehold.co/400x400/white/212529?text=Fe"); */
+  background-image: url("pawpatrol.png");
+}
+
 .product__title {
   font-weight: 500;
   margin-top: 1rem;
